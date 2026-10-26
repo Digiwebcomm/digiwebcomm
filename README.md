@@ -1,16 +1,19 @@
-## Hi there 👋
+# Digiwebcomm
 
-<!--
-**Digiwebcomm/digiwebcomm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Site vitrine statique pour Digiwebcomm, prêt pour Cloudflare Pages.
 
-Here are some ideas to get you started:
+## Fichiers
+- `index.html` : page d'accueil
+- `assets/style.css` : styles adaptatifs
+- `assets/main.js` : menu mobile et année du pied de page
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Avant publication
+1. Remplacer `contact@digiwebcomm.be` par votre adresse e-mail réelle.
+2. Vérifier les services, les textes et les coordonnées.
+3. Ajouter les pages légales nécessaires à votre activité (mentions légales, politique de confidentialité, cookies si nécessaire).
+
+## Publication Cloudflare Pages
+Dans Cloudflare : Workers & Pages → Create → Pages → Connect to Git. Choisir le dépôt `digiwebcomm`. Pour ce site HTML statique, ne pas définir de commande de build et laisser le répertoire de sortie à `/` si l'interface le demande; sinon utiliser le réglage adapté à la méthode de déploiement choisie.
+
+## CMS
+Ce dossier est le site vitrine initial. Pour l'édition visuelle et la création de nouvelles pages sans coder, une configuration CMS doit encore être ajoutée et testée avant de compter dessus en production.
