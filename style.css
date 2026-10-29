@@ -296,3 +296,52 @@ p {
 #methode article {
   border-color: #dedbd6;
 }  
+
+/* BARRE DU HAUT - LUXE BLANC ET NOIR */
+
+.site-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Logo et nom */
+.site-header .brand {
+  color: #111111;
+  opacity: 1;
+}
+
+.site-header .brand-mark {
+  background: #111111;
+  color: #ffffff;
+}
+
+/* Liens Services, A propos, Methode */
+.site-header .nav a {
+  color: #111111;
+  opacity: 1;
+}
+
+.site-header .nav a:hover {
+  color: #666666;
+}
+
+/* Bouton Parlons de votre projet */
+.site-header .nav .button,
+.site-header .nav .button-primary {
+  background: #111111;
+  color: #ffffff;
+  border: 1px solid #111111;
+}
+
+.site-header .nav .button:hover,
+.site-header .nav .button-primary:hover {
+  background: #333333;
+  color: #ffffff;
+}
+
+/* Menu sur telephone */
+.site-header .menu-toggle {
+  color: #111111;
+  border-color: #111111;
+}
+  
