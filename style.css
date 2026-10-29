@@ -158,4 +158,59 @@ p {
   color: #111111;
   opacity: 1;
 }
-      
+/* DIGIWEBCOMM - SERVICES LUXE CLAIR */
+
+#services {
+  background: #f8f7f4;
+  color: #111111;
+  padding: 90px 24px;
+}
+
+/* Titres de la section */
+#services h2,
+#services .section-heading h2 {
+  color: #111111;
+}
+
+/* Petits textes */
+#services p,
+#services .section-heading p {
+  color: #444444;
+  opacity: 1;
+}
+
+/* Cartes des services */
+#services .service-card {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+}
+
+/* Titres des cartes */
+#services .service-card h3 {
+  color: #111111;
+}
+
+/* Descriptions */
+#services .service-card p {
+  color: #444444;
+  opacity: 1;
+}
+
+/* Numéros */
+#services .service-number {
+  color: #777777;
+}
+
+/* Liens */
+#services .service-card a {
+  color: #111111;
+  opacity: 1;
+}
+
+/* Icônes */
+#services .service-icon {
+  background: #f0efed;
+  color: #111111;
+}      
