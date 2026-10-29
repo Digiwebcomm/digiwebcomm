@@ -267,4 +267,32 @@ p {
     padding: 65px 20px;
   }
 }
-  
+/* DIGIWEBCOMM - NOTRE METHODE LUXE */
+
+#methode {
+  background: #f8f7f4;
+  color: #111111;
+}
+
+/* Titres */
+#methode h2,
+#methode h3 {
+  color: #111111;
+  opacity: 1;
+}
+
+/* Descriptions */
+#methode p {
+  color: #333333;
+  opacity: 1;
+}
+
+/* Petits numéros et textes */
+#methode .eyebrow {
+  color: #555555;
+}
+
+/* Séparations élégantes */
+#methode article {
+  border-color: #dedbd6;
+}  
