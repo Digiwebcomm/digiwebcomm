@@ -591,3 +591,39 @@ p {
     transition: none;
   }
 }  
+/* DIGIWEBCOMM — PHOTOS DES SERVICES */
+
+#services .service-image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 14px;
+  margin-bottom: 24px;
+  background: #eeeeee;
+}
+
+#services .service-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+@media (hover: hover) {
+  #services .service-card:hover .service-image img {
+    transform: scale(1.06);
+  }
+}
+
+@media (max-width: 650px) {
+  #services .service-image {
+    height: 200px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #services .service-image img {
+    transition: none;
+  }
+}
