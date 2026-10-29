@@ -565,4 +565,29 @@ p {
     grid-template-columns: 1fr;
   }
 }
-  
+/* DIGIWEBCOMM — ANIMATIONS DES SERVICES */
+#services .service-card {
+  transition: transform 0.45s ease, box-shadow 0.45s ease;
+}
+
+@media (hover: hover) {
+  #services .service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+  }
+
+  #services .service-card img {
+    transition: transform 0.6s ease;
+  }
+
+  #services .service-card:hover img {
+    transform: scale(1.04);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #services .service-card,
+  #services .service-card img {
+    transition: none;
+  }
+}  
