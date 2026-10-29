@@ -389,4 +389,112 @@ p {
 #services .service-card.featured .service-number {
   color: #ffffff;
 }
+
+/* DIGIWEBCOMM - SERVICES NOIR ET BLANC */
+
+/* Section */
+#services {
+  background: #f5f5f5;
+  color: #111111;
+}
+
+/* Cartes blanches */
+#services .service-card {
+  background: #ffffff;
+  color: #111111;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  padding: 35px 28px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+#services .service-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Carte centrale noire */
+#services .service-card.featured {
+  background: #111111;
+  color: #ffffff;
+  border-color: #111111;
+}
+
+/* Titres et descriptions */
+#services .service-card h3 {
+  color: #111111;
+  font-weight: 700;
+}
+
+#services .service-card p {
+  color: #444444;
+  opacity: 1;
+}
+
+#services .service-card.featured h3,
+#services .service-card.featured p {
+  color: #ffffff;
+}
+
+/* Listes des avantages */
+#services .service-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+}
+
+#services .service-card li {
+  color: #222222;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+#services .service-card li::before {
+  content: "✓";
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#services .service-card.featured li {
+  color: #ffffff;
+}
+
+/* Boutons */
+#services .service-card a {
+  display: block;
+  margin-top: auto;
+  padding: 16px 20px;
+  background: #111111;
+  color: #ffffff !important;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+#services .service-card.featured a {
+  background: #ffffff;
+  color: #111111 !important;
+}
+
+/* Icônes */
+#services .service-icon {
+  background: #eeeeee;
+  color: #111111;
+  border-radius: 14px;
+  padding: 14px;
+}
+
+#services .service-card.featured .service-icon {
+  background: #ffffff;
+  color: #111111;
+}
+
+/* Adaptation mobile */
+@media (max-width: 600px) {
+  #services .service-card {
+    padding: 28px 22px;
+  }
+}
   
