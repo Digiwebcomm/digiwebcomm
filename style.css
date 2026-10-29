@@ -23,4 +23,87 @@
   font-size: 17px;
   line-height: 1.7;
 }
-  
+
+/* DIGIWEBCOMM - DESIGN NOIR ET BLANC LUXE */
+
+/* Couleurs principales */
+:root {
+  --navy: #111111;
+  --blue: #222222;
+  --cyan: #e8e8e8;
+}
+
+/* Fond et texte */
+body {
+  background-color: #0b0b0b;
+  color: #f5f5f5;
+}
+
+/* Titres */
+h1, h2, h3 {
+  letter-spacing: -0.5px;
+}
+
+/* Section réalisations : blanc cassé */
+#realisations {
+  background: #f7f7f5;
+  color: #111111;
+  padding: 90px 24px;
+  text-align: center;
+}
+
+#realisations h2 {
+  color: #111111;
+}
+
+#realisations p {
+  color: #555555;
+}
+
+/* Section réservation : noir */
+#reservation {
+  background: #0b0b0b;
+  color: #f5f5f5;
+  padding: 90px 24px;
+  text-align: center;
+}
+
+#reservation h2 {
+  color: #ffffff;
+}
+
+#reservation p {
+  color: #c7c7c7;
+}
+
+/* Bouton de réservation */
+#reservation .button {
+  display: inline-block;
+  background: #ffffff;
+  color: #111111;
+  border: 1px solid #ffffff;
+  padding: 15px 30px;
+  margin-top: 24px;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: 0.3s ease;
+}
+
+#reservation .button:hover {
+  background: transparent;
+  color: #ffffff;
+}
+
+/* Confort sur téléphone */
+@media (max-width: 600px) {
+  #realisations,
+  #reservation {
+    padding: 60px 20px;
+  }
+
+  #realisations h2,
+  #reservation h2 {
+    font-size: 30px;
+  }
+}
+    
