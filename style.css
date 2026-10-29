@@ -214,3 +214,57 @@ p {
   background: #f0efed;
   color: #111111;
 }      
+
+/* DIGIWEBCOMM - A PROPOS LUXE NOIR */
+
+#apropos {
+  background: #0b0b0b;
+  color: #ffffff;
+  padding: 100px 24px;
+}
+
+#apropos h2,
+#apropos h3 {
+  color: #ffffff;
+}
+
+#apropos p {
+  color: #e0e0e0;
+  opacity: 1;
+}
+
+#apropos .eyebrow {
+  color: #c5c5c5;
+}
+
+/* NOTRE METHODE - LUXE CLAIR */
+
+#methode {
+  background: #f8f7f4;
+  color: #111111;
+  padding: 100px 24px;
+}
+
+#methode h2,
+#methode h3 {
+  color: #111111;
+}
+
+#methode p {
+  color: #444444;
+  opacity: 1;
+}
+
+#methode .eyebrow {
+  color: #555555;
+}
+
+/* Adaptation pour les telephones */
+
+@media (max-width: 600px) {
+  #apropos,
+  #methode {
+    padding: 65px 20px;
+  }
+}
+  
