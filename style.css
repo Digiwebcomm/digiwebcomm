@@ -106,4 +106,56 @@ h1, h2, h3 {
     font-size: 30px;
   }
 }
-    
+
+/* CORRECTION LISIBILITE DIGIWEBCOMM */
+
+/* Textes sur les fonds noirs */
+body {
+  color: #ffffff;
+}
+
+h1, h2, h3 {
+  opacity: 1;
+}
+
+p {
+  opacity: 1;
+}
+
+/* Section réalisations : fond clair */
+#realisations {
+  background-color: #f7f7f5;
+  color: #111111;
+}
+
+#realisations h2,
+#realisations .eyebrow {
+  color: #111111;
+}
+
+#realisations p {
+  color: #333333;
+}
+
+/* Section réservation : fond noir */
+#reservation {
+  background-color: #0b0b0b;
+  color: #ffffff;
+}
+
+#reservation h2,
+#reservation .eyebrow {
+  color: #ffffff;
+}
+
+#reservation p {
+  color: #eeeeee;
+}
+
+/* Bouton de réservation */
+#reservation .button {
+  background-color: #ffffff;
+  color: #111111;
+  opacity: 1;
+}
+      
