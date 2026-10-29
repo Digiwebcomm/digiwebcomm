@@ -627,3 +627,25 @@ p {
     transition: none;
   }
 }
+/* DIGIWEBCOMM — ANIMATION DES BOUTONS */
+
+#services .service-card > a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media (hover: hover) {
+  #services .service-card > a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #services .service-card > a {
+    transition: none;
+  }
+}
